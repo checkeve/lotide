@@ -17,7 +17,7 @@ const assertArraysEqual = function(array1, array2) {
   } else console.log(`💀💀💀 Assertion Failed: ${array1} !== ${array2}`);
 };
 
-const words = ["ground", "control", "to", "major", "tom"];
+
 
 const map = function(array, callback) {
   const results = [];
@@ -28,6 +28,7 @@ const map = function(array, callback) {
 };
 
 //Testing assignment example...
+const words = ["ground", "control", "to", "major", "tom"];
 assertArraysEqual(map(words, x => x[0]), ["g", "c", "t", "m", "t"]);
 
 //Testing array with numbers and function with more than one line
@@ -41,3 +42,5 @@ assertArraysEqual(mapResult1, [1, 4, 9, 16, 25]);
 //Testing and array with numbers and strings...
 let mapResult2 = map([0, "dog", 62], item => "hidden item");
 assertArraysEqual(mapResult2, ["hidden item", "hidden item", "hidden item"]);
+
+module.exports = map;

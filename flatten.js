@@ -33,3 +33,4 @@ const flatten = function(nestedArray) {
     return flatArray
   }
 
+  module.exports = flatten;

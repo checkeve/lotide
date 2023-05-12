@@ -34,3 +34,6 @@ const nums = {
 };
 assertEqual(findKeyByValue(nums, 3), "three");
 assertEqual(findKeyByValue(nums, 5), undefined);
+
+
+module.exports = findKeyByValue;
