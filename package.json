@@ -1,0 +1,26 @@
+{
+  "name": "@checkeve/lotide",
+  "version": "1.0.0",
+  "description": "Collection of functions created for LHL Lotide assignment",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/checkeve/lotide.git"
+  },
+  "author": "Joanna Check",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/checkeve/lotide/issues"
+  },
+  "homepage": "https://github.com/checkeve/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  }
+}
